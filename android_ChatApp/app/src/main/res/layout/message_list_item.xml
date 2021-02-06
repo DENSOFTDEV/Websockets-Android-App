@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/received_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/received_text"
+        android:background="#808080"
+        android:textColor="@android:color/white"
+        android:layout_marginRight="64dp"
+        android:layout_marginEnd="64dp" />
+
+    <TextView
+        android:id="@+id/sent_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/sent_text"
+        android:layout_alignParentRight="true"
+        android:background="@color/design_default_color_primary"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="64dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp" />
+
+</RelativeLayout>
